@@ -1,0 +1,125 @@
+#root {
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+}
+.MB-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.MB-content {
+    text-align: center;
+    white-space: nowrap;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: env(safe-area-inset-top);
+}
+.MB-card {
+    background-color: #202020;
+    position: relative;
+    border: none;
+    text-align: left;
+    text-align: initial;
+    white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 470px;
+    min-width: 320px;
+    width: 100%;
+}
+.optional-top-spacer {
+    background-color: #202020;
+    height: 1.8em;
+    position: absolute;
+    top: -1.8em;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+.MB-card-content {
+    padding: 2em 60px .5em;
+}
+.layout-vertical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 300px;
+}
+.Logo-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-vertical{
+    display: flex;
+    flex-direction: column;
+}
+.Subheading {
+    margin-top: 30px;
+}
+.upper {
+    text-transform: uppercase;
+
+}
+.font {
+    color: #F4F4F4;
+    font-size: 16px;
+    font-family: Brutal, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+.form-gap{
+    margin-top: 15px;
+}
+.form-feild{
+    width: 100%;
+    margin: 0;
+    border: 0;
+    display: inline-flex;
+    padding: 0;
+    position: relative;
+    min-width: 0;
+    border-radius: 0;
+    flex-direction: column;
+    vertical-align: top;
+    background-color: #2B2B2B;
+}
+.form-width{
+    width: 100%;
+}
+.form-input {
+    font: inherit;
+    color: #F4F4F4;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    height: 50px;
+    padding: 6px 0 7px;
+    display: block;
+    min-width: 0;
+    box-sizing: content-box;
+    background: none;
+    padding-top: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
